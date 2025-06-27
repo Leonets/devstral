@@ -1,0 +1,10 @@
+/dist/**
+/node_modules/**
+.tool-versions
+/.vscode
+/.idea
+/.DS_Store
+/.env
+package-lock.json
+pnpm-lock.yaml
+tsconfig.tsbuildinfo
