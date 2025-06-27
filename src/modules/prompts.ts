@@ -36,4 +36,22 @@ export function registerPrompts(server: McpServer) {
   );
 
 
+    server.prompt(
+        "approved-offer",
+        {},
+        () => ({
+          messages: [
+            {
+              role: "user",
+              content: {
+                type: "text",
+                text: "how many offer have been approved ?"
+              }
+            }
+          ]
+        })
+      );
+
+
+
 }
